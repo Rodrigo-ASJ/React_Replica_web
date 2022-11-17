@@ -7,12 +7,15 @@ import ErrorPage from './pages/error/ErrorPage'
 function App() {
   return (
     <div className="App">
+
+
      <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path="discover" element={ <Discover/> } />
         <Route path="join" element={ <Join/> } />
         <Route path="*" element={ <ErrorPage/> } />
       </Routes>
+
     </div>
   );
 }
