@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'variables.scss';
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: white;
+	
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  font-weight: bold;
+}
+
+/* HOME */
+
+.pt-15{
+	padding-top: 15%;
+}
+
+.home-bg{
+background: url('../assets/formas/Ellipse_big_home.svg') no-repeat bottom 0rem right 0rem/ 30%,
+			url('../assets/formas/Ellipse_small_home.svg') no-repeat top 4rem left calc( 100% - 43rem)/ 30%,
+			url('../assets/formas/Ellipse_red_home.svg') no-repeat bottom 7rem left -5%/30%;
+	
+}
+
+/*Discover */
+
+#discover .item{
+	text-align: center;
+	padding: .7rem 1.5rem;
+	background:#202027;
+	min-width: 132px;
+	cursor: pointer;
+	
+	&:hover{
+		color:$hovers;
+	}
+
+	&:focus{
+		color:$focus;
+	}
+	
+	p{
+		margin-bottom:0;
+		font-size: 1.4rem;
+		
+	}
+}
+
+/* JOIN */
+
+#join form {
+
+	button{
+		width: 100%;
+		padding:.7rem;
+		border-radius: var(--bs-border-radius-lg);
+	}
+
+	
+	
+}
+
+
