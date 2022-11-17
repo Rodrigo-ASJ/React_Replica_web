@@ -14,7 +14,7 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.App{
+.App > section{
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,54 +25,69 @@ footer{
 }
 
 /* HOME */
+#home{
 
-.pt-15{
-	padding-top: 15%;
-}
+	
+	
+		background: url('../assets/formas/Ellipse_big_home.svg') no-repeat bottom 0rem right 0rem/ 30%,
+		url('../assets/formas/Ellipse_small_home.svg') no-repeat top 4rem left calc( 100% - 43rem)/ 30%,
+		url('../assets/formas/Ellipse_red_home.svg') no-repeat bottom 7rem left -5%/30%;
+		
 
-.home-bg{
-background: url('../assets/formas/Ellipse_big_home.svg') no-repeat bottom 0rem right 0rem/ 30%,
-			url('../assets/formas/Ellipse_small_home.svg') no-repeat top 4rem left calc( 100% - 43rem)/ 30%,
-			url('../assets/formas/Ellipse_red_home.svg') no-repeat bottom 7rem left -5%/30%;
+	.pt-15{
+		padding-top: 15%;
+	}
 	
 }
 
 /*Discover */
 
-#discover .item{
+#discover{ 
+	
+	.item{
 	text-align: center;
 	padding: .7rem 1.5rem;
 	background:#202027;
 	min-width: 132px;
 	cursor: pointer;
-	
-	&:hover{
-		color:$hovers;
-	}
-
-	&:focus{
-		color:$focus;
-	}
-	
-	p{
-		margin-bottom:0;
-		font-size: 1.4rem;
 		
+		&:hover{
+			color:$hovers;
+		}
+
+		&:focus{
+			color:$focus;
+		}
+		
+		p{
+			margin-bottom:0;
+			font-size: 1.4rem;
+			
+		}
 	}
 }
 
 /* JOIN */
 
-#join form {
+#join{
 
-	button{
-		width: 100%;
-		padding:.7rem;
-		border-radius: var(--bs-border-radius-lg);
+		background: url('../assets/formas/Ellipse_small_home.svg') no-repeat top calc( 37rem - 100% ) right calc(100% - 12rem) / 30%,
+			url('../assets/formas/Ellipse_red_home.svg') no-repeat bottom -5rem left -29% / 46%;
+
+h1{
+	span{
+		color: $magenta
 	}
+}
+	
+ form {
 
-	
-	
+		button{
+			width: 100%;
+			padding:.7rem;
+			border-radius: var(--bs-border-radius-lg);
+		}	
+	}
 }
 
 

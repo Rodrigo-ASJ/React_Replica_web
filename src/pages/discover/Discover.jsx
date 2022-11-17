@@ -11,9 +11,10 @@ import { ReactComponent as More } from '../../assets/icons/more.svg'
 
 export const Discover = () => {
   return (
-    <><Header />
+    <section id='discover'>
+      <Header />
    
-    <main id='discover' className='d-flex discover-bg flex-grow-1'>
+    <main className='d-flex discover-bg flex-grow-1'>
     <Container className='d-flex flex-column justify-content-center'>
        <Row>
          <Col className='pt-3'>
@@ -45,7 +46,7 @@ export const Discover = () => {
     </main>
  
     <Footer />
-    </>
+    </section>
   )
 }
 

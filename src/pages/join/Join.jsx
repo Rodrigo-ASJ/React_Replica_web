@@ -9,17 +9,17 @@ import Formulario from '@pages/join/Form_join'
 
 export const Join = () => {
   return (
-    <><Header />
+    <section id='join'>
+      <Header />
    
-    <main id='join' className='d-flex discover-bg flex-grow-1'>
+    <main  className='d-flex discover-bg flex-grow-1'>
     <Container className='d-flex flex-column justify-content-center'>
        <Row>
-         <Col className='pt-3'>
-           <h1 className='display-3 fw-normal mb-5'>Discover new music</h1>    
-           <p className='lead fw-normal mb-4'>BY joining you can benefit by listening to the latest albums realesed </p>   
+         <Col md={6} className='d-flex justify-content-center align-items-center'>
+           <h1 className='display-1 display-md-3 fw-bold mb-5'>Join the <span>fun.</span></h1>    
          </Col>
-         <Col>
-          <div className='bg-dark px-5 py-4 rounded-4'>
+         <Col md={6} >
+          <div className='bg-dark px-5 pt-5 pb-4 rounded-4'>
 
          <Formulario/>
           </div>
@@ -30,7 +30,7 @@ export const Join = () => {
     </main>
  
     <Footer />
-    </>
+    </section>
   )
 }
 

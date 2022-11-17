@@ -24,7 +24,7 @@ const Form_join = () => {
 
       <Form.Group className="mb-4" controlId="formBasicCheckbox">
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button className="mb-2" variant="primary" type="submit">
         Join Now
       </Button>
     </Form>

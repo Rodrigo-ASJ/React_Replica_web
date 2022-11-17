@@ -8,9 +8,10 @@ import Girl from '@assets/fotos/landing-page-girl.png'
 
 export const Home = () => {
   return (
-   <><Header />
+   <section id="home">
+    <Header />
    
-   <main className='d-flex home-bg flex-grow-1'>
+   <main  className='d-flex flex-grow-1'>
    <Container className='d-flex flex-column justify-content-end'>
       <Row>
         <Col><img src={Girl} className="img-fluid" alt="mujer mirando al cielo"/></Col>
@@ -25,7 +26,7 @@ export const Home = () => {
    </main>
 
    <Footer />
-   </>
+   </section>
   )
 }
 

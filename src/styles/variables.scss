@@ -9,6 +9,7 @@ $hovers: #3E7FD1;
 $focus: #4996F7;
 
 
+
 .nav-link{
     color: $white;
     &:hover{
@@ -16,10 +17,6 @@ $focus: #4996F7;
     }
 }
 
-
-.bg-dark {
-    background-color: $darks;
-}
 
 .btn{
 
@@ -38,4 +35,10 @@ $focus: #4996F7;
 .form-control {
     background-color: $darks;
     border: 1px solid #2E3150;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-label {
+    font-weight: bold;
 }

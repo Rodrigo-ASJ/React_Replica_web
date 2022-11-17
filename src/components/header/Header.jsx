@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,16 +10,18 @@ export const Header = () => {
     <header>
   <Navbar className="pt-4" variant='dark'>
         <Container>
-          <Navbar.Brand href="#home" className='d-flex align-items-center'>
+          <Navbar.Brand as={Link} to="/" className='d-flex align-items-center'>
           <LogoSVG className='me-3'/> Soundwave
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Discover</Nav.Link>
-            <Nav.Link href="#features">Join</Nav.Link>
+            <Nav.Link as={Link} to="discover">Discover</Nav.Link>
+            <Nav.Link as={Link} to="join">Join</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
     </header>
+
+
   )
 }
 
