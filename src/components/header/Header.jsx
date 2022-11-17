@@ -14,8 +14,8 @@ export const Header = () => {
           <LogoSVG className='me-3'/> Soundwave
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="discover">Discover</Nav.Link>
-            <Nav.Link as={Link} to="join">Join</Nav.Link>
+            <Nav.Link as={Link} to="/discover">Discover</Nav.Link>
+            <Nav.Link as={Link} to="/join">Join</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
