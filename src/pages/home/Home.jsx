@@ -13,11 +13,11 @@ export const Home = () => {
     <Header />
    
    <main  className='d-flex flex-grow-1'>
-   <Container className='d-flex flex-column justify-content-end'>
+   <Container className='d-flex flex-column justify-content-center justify-content-md-end '>
       <Row>
-        <Col><img src={Girl} className="img-fluid" alt="mujer mirando al cielo"/></Col>
-        <Col className='pt-15'>
-          <h1 className='display-3 fw-normal'>Feel the music</h1>
+        <Col md={6} className='d-none d-md-block'><img src={Girl} className="img-fluid" alt="mujer mirando al cielo"/></Col>
+        <Col md={6} className='pt-15'>
+          <h1 className='display-1 display-md-3 fw-normal'>Feel the music</h1>
           <p className='lead fw-normal mb-4'>Stream Over 20 thousand songs with one click</p>
           <Link className="btn btn-primary" to="/join">Join Now</Link>
         </Col>

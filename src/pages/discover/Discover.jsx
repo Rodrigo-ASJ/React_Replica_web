@@ -17,15 +17,15 @@ export const Discover = () => {
     <main className='d-flex discover-bg flex-grow-1'>
     <Container className='d-flex flex-column justify-content-center'>
        <Row>
-         <Col className='pt-3'>
+         <Col md={6} className='pt-3'>
            <h1 className='display-3 fw-normal mb-5'>Discover new music</h1>
-           <div className="d-flex w-100 mb-4">
+           <div className="d-flex flex-wrap mb-4">
 
-           <div className='item me-4 mb-2'>
+           <div className='item me-2 me-md-4 mb-2 flex-shrink-1'>
             <Charts className='mb-3'/>
             <p>Charts</p>
            </div>
-           <div className='item me-4 mb-2'>
+           <div className='item me-2 me-md-4 mb-2'>
             <Albums className='mb-3'/>
             <p>Albums</p>
            </div>
@@ -37,7 +37,7 @@ export const Discover = () => {
            <p className='lead fw-normal mb-4'>BY joining you can benefit by listening to the latest albums realesed </p>
          
          </Col>
-         <Col className='text-center'>
+         <Col md={6} className='text-center'>
           <img src={Covers} className="img-fluid" alt="mujer mirando al cielo"/>
          </Col>
        </Row>

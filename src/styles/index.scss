@@ -91,4 +91,29 @@ h1{
 	}
 }
 
+@media (max-width: 435px){
 
+
+	#home{ 
+
+		.pt-15{
+			padding-top: 0;
+		}
+	}
+	
+	
+	#discover .item{
+		min-width: 116px;
+	
+
+		svg{
+			width: 30px;
+			height: auto;
+		}
+
+		p{
+			font-size: 1rem;
+		}
+	}
+	
+}

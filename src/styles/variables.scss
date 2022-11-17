@@ -9,7 +9,13 @@ $hovers: #3E7FD1;
 $focus: #4996F7;
 $magenta: #D3007B;
 $bgBody:#2f303a;
+$primary: #2D61A2;
 
+
+.bg-dark{
+    background-color: $darks
+    
+}
 
 .nav-link{
     color: $white;
@@ -20,7 +26,7 @@ $bgBody:#2f303a;
 
 
 .btn{
-
+    background:$primary;
     padding: 1rem 2rem;
     font-weight: 500;
     &:hover {
