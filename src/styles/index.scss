@@ -95,7 +95,12 @@ h1{
 
 
 	#home{ 
+		background: url('../assets/formas/Ellipse_big_home.svg') no-repeat bottom 4rem right 0rem/ 30%,
+		url('../assets/formas/Ellipse_small_home.svg') no-repeat top 7rem left calc(100% - 11rem)/30%,
+		url('../assets/formas/Ellipse_red_home.svg') no-repeat bottom 7rem left 6%/30%;
 
+
+		
 		.pt-15{
 			padding-top: 0;
 		}
